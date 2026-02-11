@@ -1,0 +1,103 @@
+{
+    "position": "bottom",
+    "margin-top" : 2,
+    "margin-left": 20,
+    "margin-right": 20,
+    "height" : 28,
+
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "format-icons": {
+        "active": ""
+      },
+      "sort-by-number": true,
+      "persistent-workspaces": {
+        "*": 5 // 5 workspaces by default on every monitor
+      }
+      
+    },
+
+    "modules-center": [
+      "hyprland/window"
+    ],
+    "hyprland/window": {
+      "format": "{class}",
+      "max-length": 35,
+      "rewrite": {
+        "": "LiebeJR", // change name "" to ... on the bottom
+        "code": "VS Code",
+        "google-chrome": "Google Chrome",
+        "org.telegram.desktop": "Telegram",
+        "com.obsproject.Studio": "OBS Studio",
+        "org.gnome.clocks": "Clocks"
+      },
+      "separate-outputs": true // to display this on several monitors
+    },
+    
+    "modules-right": [
+      "hyprland/language",
+      "pulseaudio",
+      "battery",
+      "network",
+      "clock",
+      "tray"
+    ],
+
+    "tray": {
+      "spacing": 10
+    },
+
+    "hyprland/language": {
+      "format": "{}",
+      "format-en": "English"
+    },
+    
+    "pulseaudio": {
+      "format": "{icon}  {volume}%",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-muted": " {format_source}",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+      },
+      "on-click": "pavucontrol"
+    },
+    
+    "battery": {
+      "states": {
+        "warning": 30,
+        "critical": 10
+      },
+      "format": "{icon}  {capacity}%",
+      "format-full": "{icon} {capacity}%",
+      "format-charging": " {capacity}%",
+      "format-plugged": " {capacity}%",
+      "format-alt": "{time} {icon}",
+      "format-icons": ["", "", "", "", ""]
+    },
+    
+    "network": {
+      "format-wifi": "  {signalStrength}%",
+      "format-ethernet": "{cidr} ",
+      "tooltip-format": "{ifname} via {gwaddr} ",
+      "format-linked": "{ifname} (No IP) ",
+      "format-disconnected": " ⚠ ",
+      "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+    "clock": {
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format-alt": "{:%Y-%m-%d}"
+    }
+    
+}
