@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Random wallpaper
+Exec=waypaper --random
+Icon=/home/mirphi/Media/icons/wallpaper.png
+Terminal=false
+Categories=Utility;

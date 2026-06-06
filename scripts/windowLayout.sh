@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-STATE_FILE="$HOME/.config/scripts/tmp/.hypr_gaps_mode.txt"
+STATE_FILE="$HOME/.config/scripts/dont-touch/.hypr_gaps_mode.txt"
 
 if [[ -f "$STATE_FILE" ]]; then
     hyprctl --batch "keyword general:gaps_out 20; keyword general:gaps_in 5; keyword general:border_size 1; keyword decoration:rounding 10"

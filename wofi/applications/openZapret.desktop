@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Zapret
+Exec=kitty sh -c "/home/mirphi/.config/scripts/zapret.sh"
+Icon=/home/mirphi/Media/icons/settings.png
+Terminal=false
+Categories=Utility;

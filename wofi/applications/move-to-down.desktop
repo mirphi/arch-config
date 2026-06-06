@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Move window to down workspace
+Comment=Move active window to special:downWin
+Exec=/home/mirphi/.config/scripts/move-to-down.sh
+Terminal=false
+Categories=Utility;

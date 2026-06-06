@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Open config
+Exec=code /home/mirphi/.config/
+Icon=/home/mirphi/Media/icons/settings.png
+Terminal=false
+Categories=Utility;
