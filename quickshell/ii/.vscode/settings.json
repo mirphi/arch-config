@@ -1,0 +1,16 @@
+{
+    "qt-qml.qmlls.enabled": true,
+    "qt-qml.qmlls.customExePath": "/usr/bin/qmlls6",
+    "qt-qml.qmlls.additionalImportPaths": [
+        "/usr/lib/qt6/qml",
+        "/run/user/1000/quickshell/vfs/4bd9190a67f6f39023797334a92ba26c"
+    ],
+    "qt-qml.qmlls.useNoCMakeCalls": true,
+    "editor.stickyScroll.maxLineCount": 1,
+
+    "[qml]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "editor.detectIndentation": false
+}

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Move window to browser workspace
+Comment=Move active window to special:downWin
+Exec=/home/mirphi/.config/scripts/move-to-browser.sh
+Terminal=false
+Categories=Utility;

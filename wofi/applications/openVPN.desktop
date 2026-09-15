@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=VPN
-Exec=bash /home/mirphi/.config/scripts/VPN.sh
+Exec=bash /home/mirphi/.config/scripts/start_VPN.sh
 Icon=/home/mirphi/Media/icons/settings.png
 Terminal=false
 Categories=Utility;

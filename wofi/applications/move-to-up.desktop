@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Move window to up workspace
-Comment=Move active window to special:upWin
-Exec=/home/mirphi/.config/scripts/move-to-up.sh
-Terminal=false
-Categories=Utility;

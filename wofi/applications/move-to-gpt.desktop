@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Move window to gpt workspace
+Comment=Move active window to special:gptWin
+Exec=/home/mirphi/.config/scripts/move-to-gpt.sh
+Terminal=false
+Categories=Utility;
