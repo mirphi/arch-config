@@ -1,0 +1,9 @@
+# Base packages
+
+# Applications
+google-chrome
+visual-studio-code-bin
+waypaper-git
+zoom
+
+yay

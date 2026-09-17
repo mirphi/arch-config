@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+
+!install-packages.sh
+!apply-config.sh
+!README.md
+
+!config
+!config/**
+
+!packages
+!packages/**

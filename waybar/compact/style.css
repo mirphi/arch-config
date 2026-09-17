@@ -1,7 +1,0 @@
-@import url("../style.css");
-
-window#waybar {
-  /* fill the free space to left and right */
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}

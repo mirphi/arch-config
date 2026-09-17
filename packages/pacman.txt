@@ -1,0 +1,25 @@
+# Base packages
+7zip
+git
+hyprland
+hyprlock
+hyprpaper
+hyprpicker
+hyprshot
+kitty
+pavucontrol
+quickshell
+wofi
+
+# Applications
+telegram-desktop
+celluloid
+obsidian
+gnome-calculator
+gnome-clocks
+discord
+
+# C++ packages
+cmake
+gdb
+clang
